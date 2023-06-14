@@ -7,7 +7,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
-THEME = 'pelican-themes/gum'
+THEME = 'theme/gum'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
