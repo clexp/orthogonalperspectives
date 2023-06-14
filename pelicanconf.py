@@ -7,7 +7,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
-THEME = 'pelican-themes/sundown'
+THEME = 'pelican-themes/gum'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -17,16 +17,16 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('My ML/AI Blog', '#'),
-         ('Who I am?', '#'),
-         ('General blog', '#'),
-         ('Book reviews', '#'),)
+LINKS = (('My ML/AI Blog', 'https://www.linkedin.com/?original_referer='),
+         ('Who I am?', 'https://www.facebook.com/'),
+         ('General blog', 'https://twitter.com/'),
+         ('Book reviews', 'https://www.amazon.co.uk/'),)
 
 # Social widget
-SOCIAL = (('Facebook', '#'),
-          ('Linked in', '#'),)
+SOCIAL = (('Facebook', 'https://shop.pimoroni.com/'),
+          ('Linked in', 'https://thepihut.com/'),)
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 7
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
