@@ -7,6 +7,7 @@ PATH = 'content'
 TIMEZONE = 'Europe/Rome'
 
 DEFAULT_LANG = 'en'
+THEME = 'pelican-themes/sundown'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -16,14 +17,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('My ML/AI Blog', '#'),
+         ('Who I am?', '#'),
+         ('General blog', '#'),
+         ('Book reviews', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Facebook', '#'),
+          ('Linked in', '#'),)
 
 DEFAULT_PAGINATION = 10
 
