@@ -1,13 +1,17 @@
-Title: Programming
-Date: 2010-12-03 10:22
+title: Programming
+date: 2010-12-03 10:22
 Category: Noise
 
-This is like maths. A lot of people say it's not like maths in that it is language. It is a language but it's also like maths.
+<img align="left" width="100" height="100" src=/images/Chris_pop_art.jpg>This is like maths. A lot of people say it's not like maths in that it is language. It is a language but it's also like maths.
+<br>
 
-Languages are vague. Lots of meanings of different uses for different people. Two people speaking, the same language can mean different things. But with programming languages, it's explicit. There is no opportunity for ambiguity, in natural language it is inevitable, and even deliberately used as normal practice.
+$\frac{a}{2b^4}$
 
-Humans are linguists.  We think in language, we write in language, we communicate in language. We are language machine. Humans also like there to be a clear difference between true and false. Perhaps that's the real reason reason we made computers binary.
+$$ \int{2x^2 - x + 6 }dx$$
+<br><img align="right" width="100" height="100" src=/images/left_one.png>Languages are vague. Lots of meanings of different uses for different people. Two people speaking, the same language can mean different things. But with programming languages, it's explicit. There is no opportunity for ambiguity, in natural language it is inevitable, and even deliberately used as normal practice.
 
+Humans are linguists.  We think in language, we write in language, we communicate in language. We are language machine. Humans also like there to be a clear difference between true and false. Perhaps that's the real reason reason we made computers binary.<br>
+<img align="left"  width="200" src=/images/left_one.png>
 But the real world doesn't give us a difference between true and false.
 
 Programming does.

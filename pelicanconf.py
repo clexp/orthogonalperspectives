@@ -3,8 +3,9 @@ SITENAME = 'journey_to_ML'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images','extras']
 
-TIMEZONE = 'Europe/Rome'
+TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
