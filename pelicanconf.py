@@ -2,6 +2,7 @@ AUTHOR = 'clexp'
 SITENAME = 'journey_to_ML'
 SITEURL = ''
 
+
 PATH = 'content'
 STATIC_PATHS = ['images','extras']
 
@@ -9,6 +10,11 @@ TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
+
+# clexp added
+DISPLAY_PAGES_ON_MENU = False
+SUBTITLE = 'A mechanical engineer turned medic voyages through maths and into machine learning'
+DEFAULT_CATEGORY = 'other'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

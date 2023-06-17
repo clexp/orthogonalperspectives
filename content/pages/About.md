@@ -1,7 +1,6 @@
 title: About
 date: 2023-06-17
 Modified: 2023-06-17
-Category: other
 Tags: #other
 Slug: The stub
 Authors: clexp

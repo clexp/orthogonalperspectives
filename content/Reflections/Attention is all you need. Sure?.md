@@ -1,12 +1,10 @@
 title: Attention is all you need. Sure?
 date: 2023-06-16
 Modified: 2023-7-7
-Category: Reflections
 Tags: #architectures
 Slug: 
 Authors: clexp
-Cover: /images/left_one.png
-Summary: This and that.  
+Summary: <img align="right" width="100" height="100" src=/images/left_one.jpg>This and that.  
 
 
 

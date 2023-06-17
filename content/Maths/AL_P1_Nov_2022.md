@@ -1,7 +1,6 @@
 title: A Level 
 date: 2023-06-16
 Modified: 2023-4-5
-Category: Maths
 Tags: #Maths #A-Level #udemy
 Slug: learnt things from A Level maths
 Authors: clexp
