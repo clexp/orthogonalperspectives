@@ -5,6 +5,7 @@ Category: Maths
 Tags: #Maths , #Reflections
 Slug: this is an early reflection on maths
 Authors: clexp
+Cover: /images/left_one.png
 Summary: My current feelings about maths
 
 <img align="right" width="100" height="100" src=/images/left_one.png>I just wanted to take a note about maths.

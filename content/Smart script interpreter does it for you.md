@@ -5,6 +5,7 @@ Category: Programming
 Tags: #Python #algorithms #Programming
 Slug: I timed a script, and I was surprised
 Authors: clexp
+Cover: /images/left_one.png
 Summary: The interpreter is doing something clever behind the scenes
 
 <img align="left" width="100" height="100" src=/images/Chris_pop_art.jpg>This is like maths. A lot of people say it's not like maths in that it is language. It is a language but it's also like maths.

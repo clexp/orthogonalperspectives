@@ -24,7 +24,21 @@
                                     </address>
                                     {% endif %}
                                 </footer><!-- /.post-info -->
-                                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+                                <div class="entry-content"> 
+                                    <!-- new line {% if article.cover %}<img src="{{ article.cover }}" alt="">{% endif %} -->
+                                    <!-- original {{ article.summary }} -->
+                                    <div class="col-sm-8">
+                                        <h4 class="title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h4>
+                                        <div class="content">
+                                          {{ article.summary|striptags }}
+                                          {% if article.cover %}           
+                                             <div class="container"><div class="col-md-6" style="padding-left: 0px;  padding-right: 0px;">
+                                               <img src="{{ article.cover }}" class="img-fluid">
+                                               </div></div>   
+                                          {% endif %} 
+                                        </div>
+                                      </div>
+                                </div><!-- /.entry-content -->
 
                                 <div class="medium primary btn"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more <i class="icon-arrow-right"></i></a></div>
 
