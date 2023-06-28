@@ -1,5 +1,5 @@
 AUTHOR = 'clexp'
-SITENAME = 'journey_to_ML'
+SITENAME = 'Journey to ML'
 SITEURL = ''
 
 
@@ -11,12 +11,13 @@ TIMEZONE = 'Europe/London'
 DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
 
-# clexp added
-DISPLAY_PAGES_ON_MENU = False
-SUBTITLE = 'A mechanical engineer turned medic voyages through maths and into machine learning'
+  # clexp added
+SITESUBTITLE = 'A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning'
 DEFAULT_CATEGORY = 'other'
 
 # Feed generation is usually not desired when developing
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = True
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None

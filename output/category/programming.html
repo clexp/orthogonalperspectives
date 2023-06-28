@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-        <title>journey_to_ML</title>
+        <title>Journey to ML</title>
         <meta charset="utf-8" />
 
 
@@ -18,7 +18,21 @@
 
 
 
+        <!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
+
 
 <body id="index" class="home">
 
@@ -28,8 +42,9 @@
         <div class="row">
 
           <header id="banner" class="body">
-            <img width="100%" height="10%" src="https://fakeimg.pl/800x100/32cd5a,128/000,255">
-                  <h1><a href="/">journey_to_ML <strong></strong></a></h1>
+                  <h1><a href="/">Journey to ML </a></h1>
+                  <h6><strong>A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning</strong></h6>
+                  
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -38,13 +53,10 @@
               <ul class="columns">
                 <!-- <li><a href="/">Home</a></li> -->
 
-                  <li><a href="/category/machine-learning.html">Machine Learning</a></li>
-                  <li><a href="/category/maths.html">Maths</a></li>
-                  <li><a href="/category/podcasts.html">Podcasts</a></li>
-                  <li class="active"><a href="/category/programming.html">Programming</a></li>
-                  <li><a href="/category/project.html">Project</a></li>
-                  <li><a href="/category/python.html">Python</a></li>
-                  <li><a href="/category/reflections.html">Reflections</a></li>
+                <li><a href="/pages/The stub.html">About</a></li>
+                <li><a href="/pages/The front page.html">Home</a></li>
+                <li><a href="/pages/how this was made.html">Site Notes</a></li>
+                <li><a href="/pages/this_is not_a_slug.html">Contact</a></li>
 
               </ul>
             </div>
@@ -68,7 +80,7 @@
                                 </footer><!-- /.post-info -->
                                 <div class="entry-content"> 
                                     <!-- new line <img src="/images/left_one.png" alt=""> -->
-                                    <!-- original <p>The interpreter is doing something clever behind the scenes</p> -->
+                                    <!-- original <p><img align="right" width="100" height="100" src=/images/left_one.png>The interpreter is doing something clever behind the scenes</p> -->
                                     <div class="col-sm-8">
                                         <h4 class="title"><a href="/I timed a script, and I was surprised.html">Smart script interpreter does it for you</a></h4>
                                         <div class="content">

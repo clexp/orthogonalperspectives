@@ -71,7 +71,21 @@
           {% endif %}
 
         {% endblock head %}
+        <!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
+
 
 <body id="index" class="home">
 
@@ -81,8 +95,9 @@
         <div class="row">
 
           <header id="banner" class="body">
-            <img width="100%" height="10%" src="https://fakeimg.pl/800x100/32cd5a,128/000,255">
-                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+                  <h1><a href="{{ SITEURL }}/">{{ SITENAME }} </a></h1>
+                  <h6><strong>{{ SITESUBTITLE }}</strong></h6>
+                  
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -92,14 +107,14 @@
                 <!-- <li><a href="{{ SITEURL }}/">Home</a></li> -->
 
             {% for title, link in MENUITEMS %}
-                <li><a href="{{ link }}">{{ title }}</a></li>
+                <li><a href="{{ link }}">{{ title }}</a></li> 
             {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
+            {% if not DISPLAY_PAGES_ON_MENU %}
               {% for p in pages %}
                 <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
               {% endfor %}
             {% else %}
-              {% if DISPLAY_CATEGORIES_ON_MENU %}
+              {% if not DISPLAY_CATEGORIES_ON_MENU %}
                 {% for cat, null in categories %}
                   <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
                 {% endfor %}

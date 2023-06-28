@@ -18,7 +18,21 @@
 
 
 
+        <!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
+
 
 <body id="index" class="home">
 
@@ -28,8 +42,9 @@
         <div class="row">
 
           <header id="banner" class="body">
-            <img width="100%" height="10%" src="https://fakeimg.pl/800x100/32cd5a,128/000,255">
-                  <h1><a href="/">journey_to_ML <strong></strong></a></h1>
+                  <h1><a href="/">Journey to ML </a></h1>
+                  <h6><strong>A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning</strong></h6>
+                  
           </header><!-- /#banner -->
 
             <div id="navigation" class="navbar row">
@@ -38,13 +53,10 @@
               <ul class="columns">
                 <!-- <li><a href="/">Home</a></li> -->
 
-                  <li class="active"><a href="/category/machine-learning.html">Machine Learning</a></li>
-                  <li><a href="/category/maths.html">Maths</a></li>
-                  <li><a href="/category/podcasts.html">Podcasts</a></li>
-                  <li><a href="/category/programming.html">Programming</a></li>
-                  <li><a href="/category/project.html">Project</a></li>
-                  <li><a href="/category/python.html">Python</a></li>
-                  <li><a href="/category/reflections.html">Reflections</a></li>
+                <li><a href="/pages/The stub.html">About</a></li>
+                <li><a href="/pages/The front page.html">Home</a></li>
+                <li><a href="/pages/how this was made.html">Site Notes</a></li>
+                <li><a href="/pages/this_is not_a_slug.html">Contact</a></li>
 
               </ul>
             </div>
@@ -70,10 +82,13 @@
               </address>
             </footer><!-- /.post-info -->
             <div class="entry-content">
-              <p><img align="left" width="100" height="100" src=/images/Chris_pop_art.jpg>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
-<p><img align="left"  width="300" height="auto" src=/images/Chris_pop_art.jpg>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget nibh eu nunc consectetur tincidunt. Etiam maximus mattis enim. Phasellus euismod tortor ac diam mollis, tincidunt molestie quam pretium. Etiam ultrices faucibus urna, ultricies accumsan nibh finibus ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis euismod diam ut auctor blandit. Praesent ornare lobortis maximus. Sed tellus nibh, consequat quis egestas vel, maximus at erat.</p>
+              <p>I want to learn how to do machine learning. The more I examine this, clearly the bigger field it becomes. This is not like teaching oneself watercolour. This is a large and rapidly growing and also changing field.</p>
+<p>One thing that has been helpful is the podcasts. In the words of Graham Alcott, writer of the book "productivity ninja ", podcasts are today's information DJs. That is to say radio DJs filter and select great music. This saves you the time. With V plethora of information available, you need someone to DJ or highlight and select useful information. Podcasts do this.</p>
+<p>Podcasts are often part of a community.</p>
+<p>This is a word that has come up again and again in discussions about success of open source projects. The python community is large and supportive.</p>
+<p>The Rust community is accepting and welcoming.</p>
+<p>If I am listening to a podcast, then I have a foot in a community. (Maybe a toe.)</p>
+<p>If you listen to the podcasts enough, then you get drawn into the community and may even attend meet ups. When you are in community you get support and advice and so a community can support you to learn. The main sites are cargo and hugging face. And there are some good podcasts, such as practical, AI and TWIML.</p>
             </div><!-- /.entry-content -->
 
 
