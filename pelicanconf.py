@@ -4,7 +4,10 @@ SITEURL = ''
 
 
 PATH = 'content'
-STATIC_PATHS = ['images','extras']
+STATIC_PATHS = ['images',
+                'extras',
+                'images/Literature',
+                'images/Machine Learning']
 
 TIMEZONE = 'Europe/London'
 

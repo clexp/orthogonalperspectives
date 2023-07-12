@@ -1,0 +1,1 @@
+cover: /images/topic/filename

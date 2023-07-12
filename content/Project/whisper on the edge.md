@@ -1,11 +1,11 @@
 title: whisper on the edge
 date: 2023-06-17
 Modified: 2023-06-17
-Tags: dictationPI
+Tags: #dictationPI, #IOT, #edge
 Slug: early stage research into edge dictation
 Authors: clexp
-Summary: <img align="left" width="100" height="100" src=/images/#.jpg>Ideas and what is out there
-
+Summary: Ideas and what is out there
+Status: draft
 
 
 

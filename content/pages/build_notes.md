@@ -10,9 +10,9 @@ Summary: <img align="left" width="100" height="100" src=/images/#.jpg>A story ab
 
 
 ### Static or dynamic
-It took a while before I knew what this meant, but reading around, I could see a static site would be more than adequate for a blog site. The number of frameworks was endless, but I conridered python only frameworks. This still left a reasonable number of competitors, and it was hard to strike a balance between a marketing site and documentation blog. I did not really want the documentation site as I am demonstrating a learning journey which is a human and visual thing for the journeyman as it also is for the listener to the story.
+<div class='row'><p><img align='left' src="/images/favicon-48x48.png" style="margin: 5px">It took a while before I knew what this meant, but reading around, I could see a static site would be more than adequate for a blog site. The number of frameworks was endless, but I conridered python only frameworks. This still left a reasonable number of competitors, and it was hard to strike a balance between a marketing site and documentation blog. I did not really want the documentation site as I am demonstrating a learning journey which is a human and visual thing for the journeyman as it also is for the listener to the story.</p></div>
+<div class='row'><p><img align='right' src="/images/favicon-48x48.png">Many of the static sites did not seem to have limited image control. Mkdocs, and Sphinx seem to be quite competent documentation building sites.  Pelican seemed pretty well supported an active so I started using it.</p></div>
 
-Many of the static sites did not seem to have limited image control. Mkdocs, and Sphinx seem to be quite competent documentation building sites.  Pelican seemed pretty well supported an active so I started using it.
 
 ### Write a theme or pick one?
 I took some time to work my way through the themes list and there was some close contenders. I wondered about writing my own theme on a journey to learn machine learning not web development, so I picked a theme.
@@ -24,10 +24,20 @@ I wanted to write in Mark down, because this is much easier to see when editing 
 Having listened to a lot of podcasts about software development. I found an interesting take that I found a personal challenge. Being a bit of a perfectionist engineer I want things to be just right before I put them out into the world. This is meant that I have some projects which, after much investment I have abandoned because there's not felt ready. Some commentators indicate ship a minimum viable project product as early as possible that will guide the remaining work. I felt once I had markdown and formatted the thing into a static site on my home machine, I would need to get something on a server out there.   Having a chain to get up to a server that would force me to focus on what was important
 
 ### Which hosting service?
-There are endless hosting services that can provide free or cheap hosting a static and small sites. For awhile, I was trying to Roku, but they begin to charge a fee. Then, after a while, I found a few other sites, such as slide, audio, render and nullify. I then went onto also fine history microblog and mixer. I found mixer through some obsidian blocks. History seems to be focused on the station customers. Micro block seems to be doing a lot for me. That would be very quick but essentially that makes it almost another Wickes or WordPress. I'm trying to learn as much as I can, this means I do have to go down some rabbit holes. I might use a few different services to get a feel for how these providers work. I settled on Netlify
+There are endless hosting services that can provide free or cheap hosting a static and small sites. For awhile, I was trying to Roku, but they begin to charge a fee. Then, after a while, I found a few other sites, such as slide, audio, render and nullify. I then went onto also fine history microblog and mixer. I found mixer through some obsidian blocks. History seems to be focused on the station customers. Micro block seems to be doing a lot for me. That would be very quick but essentially that makes it almost another Wix or WordPress. I'm trying to learn as much as I can, this means I do have to go down some rabbit holes. I might use a few different services to get a feel for how these providers work. I settled on Netlify.
 
 ### picture thumbnails
 I really wanting a picture in each article summary and this was half done.  I found this [https://stackoverflow.com/questions/43991473/pelican-add-image-to-summary] which told me what to modify.  This did not work directly as that is a post about using obsidian.  In the end I could get thumbnails on the article stubbs, but i would have to go back and learn my css and edit the chosen theme.  I am here to learn ML not WebDev.  I settled with using a theme.  
 
 #### Pages and menu
-It seemed Pelican put both the static pages and the category groups in both the nav bar and the side bar.  I had to tweak the Jinja templates to get one in each.  
+It seemed Pelican put both the static pages and the category groups in both the nav bar and the side bar.  I had to tweak the Jinja templates to get one in each.  It was a mixture of using the config files and changing the Jinja templates
+
+#### Content
+This is where I had to get serious about writing good material.  It had to be interesting and fun, not just the indulgent exercise of having Siri dictate your life's ramblings.  I took out the Lorem ipsum and formulated a pathway of ideas to revisit
+
+#### Favicon
+[here](https://favicon.io/favicon-converter/)is a good site for this.  I liked the little pixel man.  I originally made this as a small thing to fob off the 'profile' image thing in outlook.  I wanted to take it off outlook and go back to a boring non specific icon.  I wanted the pixelman for my branding.  (Thinking with this term is new to me).  
+
+There is a lot of complex history here, these tiny pics started out as a bookmark pretifier (who does not love pretty?).  They started as a windows proprietary ` .ico`  format and over time they have become photo specialist ` .png` but since they are tiny it is not too much data.  PNG is Portable Network Graphics.  I do not know why it is any more 'portable' or 'network' than any other format.  The issue with PNG is it is a type of bitmap, (like a maths table with numbers for colours) which does not scale up very well. This means you need at least 4 versions to cover all the platforms/screen types/software out there.   These days you can get SVG (scalar vector graphics - an image made of a series of mathematically defined lines and shapes) which scales up beautifully. This should replace the many versions you have on your website, but Not every browser supports this yet, so you still need an PNG version.  More here:
+https://en.wikipedia.org/wiki/Favicon
+

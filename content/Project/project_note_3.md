@@ -1,11 +1,11 @@
 title: Review of hardware for iot dictation
 date: 2023-06-17
 Modified: 2023-06-17
-Tags: #ML #AI #project #dictation
+Tags: #ML , #project , #dictationPI, #IOT, #edge
 Slug: review of hardware in 2023 for IOT-ML
 Authors: clexp
-Summary: <img align="left" width="100" height="100" src=/images/left_one.jpg>Pretending I am not shopping for shiny fun things
-
+Summary: Pretending I am not shopping for shiny fun things
+Status: draft
 
 
 

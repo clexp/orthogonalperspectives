@@ -1,11 +1,11 @@
 title: AI at the IOT, the edge
 date: 2023-06-17
 Modified: 2023-06-17
-Tags: dictationPY
+Tags: #dictationPI, #IOT, #edge
 Slug: toying with the idea of edge ML dictation tool
 Authors: clexp
-Summary: <img align="left" width="100" height="100" src=/images/#.jpg>Looking at the field, what is there
-
+Summary: Looking at the field, what is there
+Status: draft
 
 
 
