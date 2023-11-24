@@ -4,9 +4,9 @@ Modified:  12/Jul/2023
 Tags: Maths
 Slug: 12/Jul/23-12:07:80
 Authors: clexp
-Status: draft
 Summary: What I did and why
-<div class='row'><p><img align='left' src="#">
+Thumb: images/Maths/Amaths_1998.png
+
 I was mildly positive about choosing maths and doing maths at A-level. I almost didn't get to do A-levels. At a high performing school that makes you do maths a year early you can be made to run too quickly too fast and failed to make the great to get in where you might actually have some strength.
 
 I had two teachers of maths. This was beneficial. We were able to cover different material and have different teaching styles. I like my maths that it was small and focused and actually I was a strong candidate.

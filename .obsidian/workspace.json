@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/Literature/Mission Python.md",
+                "file": "content/Maths/AL S2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/Literature/Mission Python.md",
+                "file": "content/Maths/AL S2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/Literature/Mission Python.md",
+                "file": "content/Maths/AL S2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/Literature/Mission Python.md"
+                "file": "content/Maths/AL S2.md"
               }
             }
           }
@@ -161,12 +161,12 @@
   },
   "active": "31e5c9329b88906c",
   "lastOpenFiles": [
+    "content/Literature/Mission Python.md",
     "content/Literature/Python Crash Course.md",
     "content/Literature/Python Interviews.md",
     "content/Literature/The 100 Page Machine Learning Handbook.md",
     "content/Literature/The Emporer's New Mind.md",
     "content/Literature/The Prag Prog.md",
-    "content/Literature/Mission Python.md",
     "content/Literature/Mathematics for AI.md",
     "output/drafts/00000012.html",
     "content/Maths/AL S1.md",

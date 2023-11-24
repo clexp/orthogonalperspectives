@@ -4,5 +4,7 @@ Modified: 2023-07-02
 Tags: 
 Slug: 67
 Authors: clexp
-Status: draft
-Summary: 
+Thumb: images/thumb.png
+Summary: something about structures and neuro anatomy
+
+I really really thought about neuroanatomy

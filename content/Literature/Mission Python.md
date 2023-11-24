@@ -1,6 +1,7 @@
 title: Book review
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Literature
 Tags: #Maths , #Reflections, #Python , #books 
 Slug: 00000026
 Authors: clexp

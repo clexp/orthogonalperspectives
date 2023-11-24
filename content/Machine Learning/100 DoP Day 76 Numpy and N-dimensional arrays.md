@@ -1,6 +1,7 @@
 title: 100 Days of python, Day 76 Numpy and N-dimensional
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Machine Learning
 Tags: #Maths , #Reflections
 Slug: 00000020
 Authors: clexp

@@ -5,7 +5,6 @@ Tags: #dictationPI, #IOT, #edge
 Slug: early stage research into edge dictation
 Authors: clexp
 Summary: Ideas and what is out there
-Status: draft
 
 
 

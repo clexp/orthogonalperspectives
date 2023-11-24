@@ -1,6 +1,7 @@
 title: Smart script interpreter does it for you
 date: 2023-06-16
 Modified: 2023-4-6
+Categories: Programming
 Category: Programming
 Tags: #Python #algorithms #Programming
 Slug: I timed a script, and I was surprised

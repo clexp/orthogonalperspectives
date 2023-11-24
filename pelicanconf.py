@@ -5,9 +5,7 @@ SITEURL = ''
 
 PATH = 'content'
 STATIC_PATHS = ['images',
-                'extras',
-                'images/Literature',
-                'images/Machine Learning']
+                'extras']
 
 TIMEZONE = 'Europe/London'
 
@@ -16,16 +14,30 @@ THEME = 'theme/gum'
 
   # clexp added
 SITESUBTITLE = 'A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning'
-DEFAULT_CATEGORY = 'other'
+# DEFAULT_CATEGORY = 'Machine Learning'
+USE_FOLDER_AS_CATEGORY = True
+MENUITEMS = (
+    ('Home', '/'),
+    ('About', '/pages/about.html'),
+    ('Contact', '/pages/contact.html'),
+    ('Site Notes', '/pages/site_notes.html')
+)
 
 # Feed generation is usually not desired when developing
-DISPLAY_PAGES_ON_MENU = False
-DISPLAY_CATEGORIES_ON_MENU = True
+# in the base.html, both of the next two 'DISPLAY..' params are inverted
+# and a 'menu' is a nav bar
+DISPLAY_PAGES_ON_MENU = False # False is DO put static pages in nav
+DISPLAY_CATEGORIES_ON_MENU = True # True is DONT put categories in nav
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+
+# clexp added
+#  menuitems are really pre-nav items
+# MENUITEMS = (('oh, this', 'https://shop.pimoroni.com/'),
+#          ('and that', 'https://thepihut.com/'),)
 
 # Blogroll
 LINKS = (('My ML/AI Blog', 'https://www.linkedin.com/?original_referer='),

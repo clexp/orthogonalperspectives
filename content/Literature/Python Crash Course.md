@@ -1,6 +1,7 @@
 title: Book review, Python Crash Course, by Eric Mathes
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Literature
 Tags: #Maths , #Reflections, #books, #Python 
 Slug: 00000025
 Authors: clexp

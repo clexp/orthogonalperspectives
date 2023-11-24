@@ -1,6 +1,7 @@
 title: The Prag Prog
 date: 12/Jul/2023
 Modified:  12/Jul/2023
+Category: Literature
 Tags: #Programming 
 Slug: 12/Jul/23-17:07:63
 Authors: clexp

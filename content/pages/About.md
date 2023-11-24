@@ -1,13 +1,13 @@
 title: About
-date: 2023-06-17
-Modified: 2023-06-17
+date: 2011-01-01
+Modified: 2011-01-01
 Tags: #other
-Slug: The stub
+Slug: about
 Authors: clexp
 Summary: Who am I?
 Born in the late 1970's in the south of England to a Teacher and a  Engineering Manager, Chris grew up in the 80's and 90's to the sounds WAM, McHammer and later Ocean Colour Scene and Radiohea.  
 
-n Primary school he focussed on building dens in the woods with friends, and played a little with BBC basic on a microcomputer, and played Elite with his friend.  In secondary school  cognitive games like Civ and Transport Tycoon took his interest. His Dev career started here with an early Extract-Transform-Load project, a project with a real customer.  The school physics department, and databases: SQL. He found solace in the choir and learned to enjoy classical and choral music. 
+n Primtary school he focussed on building dens in the woods with friends, and played a little with BBC basic on a microcomputer, and played Elite with his friend.  In secondary school  cognitive games like Civ and Transport Tycoon took his interest. His Dev career started here with an early Extract-Transform-Load project, a project with a real customer.  The school physics department, and databases: SQL. He found solace in the choir and learned to enjoy classical and choral music. hooray
 
 The first period at uni covered Mechanical engineering starting in the late 90's. He enjoyed snapping metal bars under a variety of temperatures and loads, and blowing steam through turbines to get data for thermodynamic calculations.  During this period he focussed on applied maths and light use of C/C++.  He enjoyed learning manual draftsmanship. He joined the (large) gospel choir and broadened his appreciation of musical styles.
 

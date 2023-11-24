@@ -1,54 +1,57 @@
 {% extends "base.html" %}
 {% block content %}
 <section id="content">
-{% block content_title %}
 
-{% endblock %}
 
 
    <div class="row">
 
 
         <div class="eleven columns">
+{% block content_title %}
+
+{% endblock %}
+
                  <ol id="post-list">
                 {% for article in articles_page.object_list %}
-                        <li><article class="hentry">
-                                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                                <footer class="post-info">
+                        <li>
+                            <div>
+                                <article  class="c_art_hdr">
+                              
+                                    <div >
+                                  <header> <h3 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
+                                  <footer class="post-info">
                                     <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
                                     {% if article.authors %}
-                                    <address class="vcard author">By 
+                                    <address class="vcard author">By
                                     {% for author in article.authors|sort %}
                                     <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
                                     {% endfor %}
                                     </address>
                                     {% endif %}
-                                </footer><!-- /.post-info -->
-                                <div class="entry-content"> 
-                                    <!-- new line {% if article.cover %}<img src="{{ article.cover }}" alt="">{% endif %} -->
-                                    <!-- original {{ article.summary }} -->
-                                    <div class="col-sm-8">
-                                        <h4 class="title"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h4>
-                                        <div class="content">
-                                          {{ article.summary|striptags }}
-                                          {% if article.cover %}           
-                                             <div class="container"><div class="col-md-6" style="padding-left: 0px;  padding-right: 0px;">
-                                               <img src="{{ article.cover }}" class="img-fluid">
-                                               </div></div>   
-                                          {% endif %} 
-                                        </div>
-                                      </div>
-                                </div><!-- /.entry-content -->
-                                <div class="medium primary btn"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more <i class="icon-arrow-right"></i></a></div>
-                                <div class="row tag-row">
-                                    {% if article.tags %}
+                                </footer><!-- /.post-info -->                                </div>
+                                    <div>
+                                        <!-- place holder for image-->
+                                        {% if article.thumb %}<img src="{{ article.thumb }}" alt="">{% endif %}
+                                    </div>
+                             
+                             
+                                    <div >
+                                        {{ article.summary|striptags }}
+                                    </div>
+                                    <div >
+                                        {% if article.tags %}
                                         <span>Tagged as : </span>
                                         {% for tag in article.tags %}
-                                            <a class="danger label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
+                                            <a class="info label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
                                         {% endfor %}
                                     {% endif %}
+                                    <div class="medium primary btn"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more <i class="icon-arrow-right"></i></a></div>
                                 </div>
-                        </article></li>
+                             
+                                </article>
+                            </div>
+                    </li>
                 {% endfor %}
                 </ol><!-- /#posts-list -->
 

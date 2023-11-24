@@ -1,11 +1,11 @@
 title: 100 Days of python, Day 72 MatPlotLib
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Machine Learning
 Tags: #Maths , #Reflections
 Slug: 00000016
 Authors: clexp
 Summary: Exploring MatPlotLib and Data visualization
-status:
 Cover: /images/Machine_Learning/day_72_cover.png
 
 ## This was...

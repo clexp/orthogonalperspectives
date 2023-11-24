@@ -6,7 +6,6 @@ Slug: 00000011
 Authors: clexp
 Summary: Book review, Goedel Escher Bach
 Cover: /images/Literature/GEBscale.jpg
-Status: draft
 
 ## This was...
 

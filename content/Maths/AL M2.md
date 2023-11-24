@@ -1,11 +1,12 @@
 title: UK A Level Maths review, Mechanics Maths 2
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Maths
 Tags: #Maths , #Reflections
 Slug: 00000008
 Authors: clexp
 Summary: UK A Level Maths review, Mechanics Maths 2
-Status: draft
+Status: 
 cover: /images/Maths/mech_two_cover.jpg
 ## This was...
 This was the mechanics to a level year two course by Woody Lowenstein on you do me.

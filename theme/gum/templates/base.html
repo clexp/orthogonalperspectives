@@ -109,20 +109,25 @@
               <ul class="columns">
                 <!-- <li><a href="{{ SITEURL }}/">Home</a></li> -->
 
-            {% for title, link in MENUITEMS %}
+            {% for title, link in MENUITEMS %} <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
                 <li><a href="{{ link }}">{{ title }}</a></li> 
             {% endfor %}
-            {% if not DISPLAY_PAGES_ON_MENU %}
-              {% for p in pages %}
-                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-              {% endfor %}
-            {% else %}
-              {% if not DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
-                {% endfor %}
-              {% endif %}
-            {% endif %}
+            
+              <!--
+                {% if not DISPLAY_PAGES_ON_MENU %} 
+                  {% for p in pages %}
+                    <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                  {% endfor %}
+                {% else %}
+                  {% if not DISPLAY_CATEGORIES_ON_MENU %} 
+                    {% for cat, null in categories %}
+                      <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                    {% endfor %}
+                  {% endif %}
+                {% endif %}
+              -->
+            
 
               </ul>
             </div>

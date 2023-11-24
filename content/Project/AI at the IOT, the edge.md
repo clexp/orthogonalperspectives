@@ -1,6 +1,7 @@
 title: AI at the IOT, the edge
 date: 2023-06-17
 Modified: 2023-06-17
+Categories: Projects
 Tags: #dictationPI, #IOT, #edge
 Slug: toying with the idea of edge ML dictation tool
 Authors: clexp

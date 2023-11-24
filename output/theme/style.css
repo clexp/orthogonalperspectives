@@ -7,6 +7,11 @@
 
 */
 
+/* clexp added this to stop the page from popping all over the place */
+html {
+  overflow-y: scroll !important;
+}
+
 
 /* Code Highlighting */
 code,
@@ -212,4 +217,25 @@ ul.blank {
 --------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
   #banner h1 a {font-size:22px!important; line-height:24px;}
+}
+
+/* The class 'hentry' appears in the html, but not in the css
+It also is not defined looking with chrome inspecting the
+element.  The item <li> is the one I want to change. The 
+following is clexp with flexbox and grid*/
+
+.c_art_hdr {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 4fr 1fr;
+
+  column-gap: 10px;
+  row-gap: 5px;
+  
+
+}
+
+.last_box {
+  display: flex;
+  flex-direction: column;
 }

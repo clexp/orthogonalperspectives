@@ -1,6 +1,7 @@
 title: UK A Level Maths review, Pure Maths 2
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Maths
 Tags: #Maths , #Reflections
 Slug: 00000005
 Authors: clexp

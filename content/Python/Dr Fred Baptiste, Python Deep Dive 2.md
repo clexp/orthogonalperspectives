@@ -1,6 +1,7 @@
 title: Dr Fred Baptiste, Python Deep Dive 2
 date: 2023-07-02
 Modified: 2023-07-02
+Categories: Projects
 Tags: 
 Slug: 73
 Authors: clexp

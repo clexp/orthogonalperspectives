@@ -1,6 +1,7 @@
 title: Practical AI, Accidentally building SOTA AI
 date: 2023-07-02
 Modified: 2023-07-02
+Categories: Podcasts
 Tags: 
 Slug: 49
 Authors: clexp

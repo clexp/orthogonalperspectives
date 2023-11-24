@@ -1,9 +1,27 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }}{%endblock%}
 {% block content %}
-    <h1>{{ page.title }}</h1>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
+<section id="content">
 
-    {{ page.content }}
-{% endblock %}
+
+
+   <div class="row">
+
+
+        <div class="eleven columns">
+          <!-- {% block title %}{{ page.title }}{%endblock%} -->
+
+
+          <h3>{{ page.title }}</h3>
+          {% import 'translations.html' as translations with context %}
+          {{ translations.translations_for(page) }}
+      
+          {{ page.content }}
+
+
+        </div><!-- /.eleven.columns -->
+        
+     {% include 'sidebar.html' %}
+ </div><!-- /.row -->
+
+</section><!-- /#content -->
+{% endblock content %}

@@ -1,6 +1,7 @@
 title: Book Review: Python Interviews
 date: 12/Jul/2023
 Modified:  12/Jul/2023
+Category: Literatures
 Tags: 
 Slug: 12/Jul/23-17:07:20
 Authors: clexp

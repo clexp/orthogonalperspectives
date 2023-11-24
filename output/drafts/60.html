@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-        <title>What advice did ChatGPT (3.5) have on edge dictation?</title>
+        <title>What advice did ChatGPT 3.5 have on edge dictation?</title>
         <meta charset="utf-8" />
 
 
@@ -56,10 +56,27 @@
               <ul class="columns">
                 <!-- <li><a href="/">Home</a></li> -->
 
-                <li><a href="/pages/The stub.html">About</a></li>
-                <li><a href="/pages/The front page.html">Home</a></li>
-                <li><a href="/pages/how this was made.html">Site Notes</a></li>
-                <li><a href="/pages/this_is not_a_slug.html">Contact</a></li>
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/">Home</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/about.html">About</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/contact.html">Contact</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/site_notes.html">Site Notes</a></li> 
+            
+              <!--
+ 
+                    <li><a href="/pages/home.html">Home</a></li>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                    <li><a href="/pages/site_notes.html">Site Notes</a></li>
+              -->
+            
 
               </ul>
             </div>
@@ -73,7 +90,7 @@
             <header>
               <h2 class="entry-title">
                 <a href="/drafts/60.html" rel="bookmark"
-                   title="Permalink to What advice did ChatGPT (3.5) have on edge dictation?">What advice did ChatGPT (3.5) have on edge dictation?</a></h2>
+                   title="Permalink to What advice did ChatGPT 3.5 have on edge dictation?">What advice did ChatGPT 3.5 have on edge dictation?</a></h2>
            
             </header>
             <footer class="post-info">
@@ -118,7 +135,6 @@
 </li>
 </ol>
 <p>Remember to consider privacy and security aspects when handling speech recognition data, especially if it contains sensitive medical information.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>How do I evaluate accuracy and speed of the speech recognition libraries? Do I try them all out one by one or are there data tables out there?</p>
 <p>ChatGPT</p>
 <p>To evaluate the accuracy and speed of different speech recognition libraries, you can perform the following steps:</p>
@@ -143,7 +159,6 @@
 </li>
 </ol>
 <p>It's recommended to try out a few promising libraries yourself and evaluate their performance on your specific use case. This allows you to assess how well they handle your desired medical terms and your voice characteristics. Ultimately, your evaluation should be based on the specific requirements of your speech recognition tool and the results you obtain from testing with your dataset.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>I think the hardware choice alone could make or break this project. What can you tell me about the different hardware architecture and it's relative suitability? While RPi4 is very good, it much less competitive than Jetson and Corel for this. I do not know of any RiscV chips for ML/AI.</p>
 <p>ChatGPT</p>
 <p>You're correct that hardware choice plays a crucial role in building a speech recognition tool. Here's an overview of some hardware architectures and their relative suitability for this application:</p>
@@ -177,7 +192,6 @@
 </li>
 </ul>
 <p>Lastly, as technology advances, new hardware options and improvements continue to emerge, so it's always beneficial to research the latest developments and compare the specifications and performance of different hardware platforms to select the most suitable one for your project.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>Equally the software choice could break this. Lots of work is done in python, which may not be fast enough. Also the software stack is very general purpose, using a linux has a whole OS built in and all I want is an embedded-like voice to character streamer, I would want to stream line the OS by taking out a unused service. How would I do this?</p>
 <p>ChatGPT</p>
 <p>If you want to streamline the software stack and remove unused services to create a more optimized and embedded-like environment for your speech recognition tool, there are a few approaches you can take:</p>
@@ -202,7 +216,6 @@
 </li>
 </ol>
 <p>Remember to strike a balance between optimizing the software stack and maintaining necessary functionality. It's important to thoroughly test your modified software stack to ensure it meets your performance and functional requirements without sacrificing stability.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>I would like to recognize names, so I could use a list of electoral role names but jumble them. I would like to get good medical terms so I could just use a medical dictionary. I also want to make medical note entries and do medical referral letters. I would need fake letters drafted to read, record and label. Can you advise a process of making a collection of fake letters?</p>
 <p>ChatGPT</p>
 <p>Creating a collection of fake letters for training a speech recognition system can be approached in the following steps:</p>
@@ -236,7 +249,6 @@
 </li>
 </ol>
 <p>By following this process, you can generate a collection of fake letters with corresponding audio recordings and transcriptions to train and evaluate your speech recognition system accurately.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>I have been advised elsewhere to consider word stemming or segmentation. What are these? Also I have been told to use regional drift for each phenome. What does that mean?</p>
 <p>ChatGPT</p>
 <p>Word Stemming or Segmentation:</p>
@@ -252,7 +264,6 @@
 <p>To address regional drift, it is important to have a diverse and representative dataset that includes a wide range of accents and pronunciations. By incorporating data from different regions and speakers with varying phonetic patterns, the speech recognition model can better adapt and generalize to different accents and variations in pronunciation.</p>
 <p>Training the model with data that covers a variety of regional accents can help improve its robustness and accuracy across different users and locations. Additionally, techniques like transfer learning or fine-tuning specific to regional accents can be employed to further enhance the recognition performance in specific regions or accents.</p>
 <p>Overall, considering regional drift and incorporating diverse data can contribute to building more robust and accurate speech recognition systems, capable of handling various accents and regional variations.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>I have been advised a FPGA may be a cheaper way of getting specialised compute. How would this work?</p>
 <p>ChatGPT</p>
 <p>Using an FPGA (Field-Programmable Gate Array) for specialized compute can offer advantages in terms of performance, power efficiency, and cost-effectiveness compared to traditional CPUs or GPUs. Here's an overview of how an FPGA works and its potential benefits:</p>
@@ -283,7 +294,6 @@
 </li>
 </ol>
 <p>Ultimately, the decision to use an FPGA depends on the specific requirements of your speech recognition application, the scale of deployment, available resources, and expertise in FPGA development. It's recommended to thoroughly evaluate the benefits, challenges, and cost-effectiveness before deciding on adopting FPGA-based specialized compute.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>I have seen terms like iCE40 and ECP5 on the descriptions for some modern FPGAs. What does this mean?</p>
 <p>ChatGPT</p>
 <p>iCE40 and ECP5 are product families from Lattice Semiconductor, a leading FPGA manufacturer. These families represent different FPGA devices with varying capabilities and characteristics. Here's a brief overview of iCE40 and ECP5:</p>
@@ -298,7 +308,6 @@
 <p>The specific models within each family offer different resources, performance levels, and features. These can include elements such as logic cells, I/O pins, memory blocks, DSP (Digital Signal Processing) blocks, PLL (Phase-Locked Loop) resources, and support for various interface standards. The exact specifications vary between different FPGA devices within each family.</p>
 <p>When selecting an FPGA for your project, consider the requirements of your speech recognition application, including the desired performance, power consumption, I/O capabilities, and available resources. Compare the features and capabilities of different FPGA models within the iCE40 or ECP5 families to determine which one best aligns with your specific needs.</p>
 <p>It's important to consult the official documentation and specifications provided by Lattice Semiconductor or other FPGA manufacturers for detailed information about the features, resources, and development tools available for each FPGA family and device.</p>
-<p><img alt="" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e"><img alt="User" src="https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&amp;w=96&amp;q=75"></p>
 <p>The device is going to be hand held, for one person, and specialise in a medical english language set and can be trained for the person. What needs to be included to achieve this and what may get in the way and can be removed from the setup?</p>
 <p>ChatGPT</p>
 <p>To create a handheld device specializing in medical English speech recognition that can be trained for a specific person, there are several key components to include:</p>
@@ -369,7 +378,11 @@
     <li><a href="/category/literature.html">Literature</a></li>
     <li><a href="/category/machine-learning.html">Machine Learning</a></li>
     <li><a href="/category/maths.html">Maths</a></li>
+    <li><a href="/category/podcasts.html">Podcasts</a></li>
     <li><a href="/category/programming.html">Programming</a></li>
+    <li><a href="/category/project.html">Project</a></li>
+    <li><a href="/category/python.html">Python</a></li>
+    <li><a href="/category/reflections.html">Reflections</a></li>
   </ul>
 
 

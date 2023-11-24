@@ -1,3 +1,9 @@
+/* added by clexp to stop scroll popping */
+/* It had to go here as the last listed CSS file */
+html {
+  overflow-y: scroll !important;
+}
+
 .hll {
 background-color:#eee;
 }

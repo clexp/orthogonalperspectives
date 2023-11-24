@@ -1,6 +1,7 @@
 title: Book review, The Emporer's New Mind, by Roger Penrose
 date: 2023-06-16
 Modified: 2023-3-4
+Category: Literature
 Tags: #Maths , #Reflections, #Artificial_Intelligence 
 Slug: 00000014
 Authors: clexp

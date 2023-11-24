@@ -1,6 +1,7 @@
-title: What advice did ChatGPT (3.5) have on edge dictation?
+title: What advice did ChatGPT 3.5 have on edge dictation?
 date: 2023-07-02
 Modified: 2023-07-02
+Categories: Projects
 Tags: 
 Slug: 60
 Authors: clexp
@@ -43,7 +44,6 @@ Software:
 
 Remember to consider privacy and security aspects when handling speech recognition data, especially if it contains sensitive medical information.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
 
 How do I evaluate accuracy and speed of the speech recognition libraries? Do I try them all out one by one or are there data tables out there?
 
@@ -66,7 +66,6 @@ To evaluate the accuracy and speed of different speech recognition libraries, yo
 
 It's recommended to try out a few promising libraries yourself and evaluate their performance on your specific use case. This allows you to assess how well they handle your desired medical terms and your voice characteristics. Ultimately, your evaluation should be based on the specific requirements of your speech recognition tool and the results you obtain from testing with your dataset.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
 
 I think the hardware choice alone could make or break this project. What can you tell me about the different hardware architecture and it's relative suitability? While RPi4 is very good, it much less competitive than Jetson and Corel for this. I do not know of any RiscV chips for ML/AI.
 
@@ -96,8 +95,6 @@ When choosing hardware, consider the following factors:
 
 Lastly, as technology advances, new hardware options and improvements continue to emerge, so it's always beneficial to research the latest developments and compare the specifications and performance of different hardware platforms to select the most suitable one for your project.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
-
 Equally the software choice could break this. Lots of work is done in python, which may not be fast enough. Also the software stack is very general purpose, using a linux has a whole OS built in and all I want is an embedded-like voice to character streamer, I would want to stream line the OS by taking out a unused service. How would I do this?
 
 ChatGPT
@@ -119,7 +116,6 @@ If you want to streamline the software stack and remove unused services to creat
 
 Remember to strike a balance between optimizing the software stack and maintaining necessary functionality. It's important to thoroughly test your modified software stack to ensure it meets your performance and functional requirements without sacrificing stability.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
 
 I would like to recognize names, so I could use a list of electoral role names but jumble them. I would like to get good medical terms so I could just use a medical dictionary. I also want to make medical note entries and do medical referral letters. I would need fake letters drafted to read, record and label. Can you advise a process of making a collection of fake letters?
 
@@ -148,7 +144,7 @@ Creating a collection of fake letters for training a speech recognition system c
 
 By following this process, you can generate a collection of fake letters with corresponding audio recordings and transcriptions to train and evaluate your speech recognition system accurately.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
+
 
 I have been advised elsewhere to consider word stemming or segmentation. What are these? Also I have been told to use regional drift for each phenome. What does that mean?
 
@@ -168,8 +164,6 @@ To address regional drift, it is important to have a diverse and representative 
 Training the model with data that covers a variety of regional accents can help improve its robustness and accuracy across different users and locations. Additionally, techniques like transfer learning or fine-tuning specific to regional accents can be employed to further enhance the recognition performance in specific regions or accents.
 
 Overall, considering regional drift and incorporating diverse data can contribute to building more robust and accurate speech recognition systems, capable of handling various accents and regional variations.
-
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
 
 I have been advised a FPGA may be a cheaper way of getting specialised compute. How would this work?
 
@@ -196,7 +190,6 @@ Using an FPGA (Field-Programmable Gate Array) for specialized compute can offer 
 
 Ultimately, the decision to use an FPGA depends on the specific requirements of your speech recognition application, the scale of deployment, available resources, and expertise in FPGA development. It's recommended to thoroughly evaluate the benefits, challenges, and cost-effectiveness before deciding on adopting FPGA-based specialized compute.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
 
 I have seen terms like iCE40 and ECP5 on the descriptions for some modern FPGAs. What does this mean?
 
@@ -215,7 +208,7 @@ When selecting an FPGA for your project, consider the requirements of your speec
 
 It's important to consult the official documentation and specifications provided by Lattice Semiconductor or other FPGA manufacturers for detailed information about the features, resources, and development tools available for each FPGA family and device.
 
-![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2738%27%20height=%2738%27/%3e)![User](https://chat.openai.com/_next/image?url=https%3A%2F%2Fs.gravatar.com%2Favatar%2F575765859c9c3d7bf054696a15533fd7%3Fs%3D480%26r%3Dpg%26d%3Dhttps%253A%252F%252Fcdn.auth0.com%252Favatars%252Fcm.png&w=96&q=75)
+
 
 The device is going to be hand held, for one person, and specialise in a medical english language set and can be trained for the person. What needs to be included to achieve this and what may get in the way and can be removed from the setup?
 
