@@ -7,6 +7,8 @@ Authors: clexp
 Thumb: images/thumb.png
 Summary: 
 https://www.youtube.com/watch?v=2cqpncnLUJM
+Cover: /images/apple-touch-icon_thumb.png
+
 
 this is a podcast
 

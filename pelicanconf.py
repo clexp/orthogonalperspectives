@@ -2,10 +2,13 @@ AUTHOR = 'clexp'
 SITENAME = 'Journey to ML'
 SITEURL = ''
 
+# Enable live reload
+LIVERELOAD = True
+LIVERELOAD_HOST = 'localhost'
+LIVERELOAD_PORT = 35729
 
 PATH = 'content'
-STATIC_PATHS = ['images',
-                'extras']
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/London'
 
@@ -20,7 +23,7 @@ MENUITEMS = (
     ('Home', '/'),
     ('About', '/pages/about.html'),
     ('Contact', '/pages/contact.html'),
-    ('Site Notes', '/pages/site_notes.html')
+    ('Site Notes', '/pages/site-notes.html')
 )
 
 # Feed generation is usually not desired when developing

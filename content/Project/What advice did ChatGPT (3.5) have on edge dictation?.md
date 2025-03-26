@@ -7,6 +7,8 @@ Slug: 60
 Authors: clexp
 Status: draft
 Summary: what can an AI tell me about this project?
+Cover: /images/apple-touch-icon_thumb.png
+
 
 I want advice on building a speech recognition tool. I want a small physical device which will convert speech in english in real time and parse it out to a string of characters over usb. The receiving machine must only think it is receiving keyboard presses. I want advice on what hardware I could use, eg corel, rpi4, jetson, riscV or other. I also want advice on what pipeline of software must be on the device, and to string that software together. Some remarks on the type of microphone would be helpful. The big area I need help with is how to train the model. I want to use medical terms, and train it to my voice only.
 

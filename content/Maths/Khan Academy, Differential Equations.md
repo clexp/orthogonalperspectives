@@ -6,6 +6,8 @@ Slug: 41
 Authors: clexp
 Status: draft
 Summary: Reviewing Calculus.  
+Cover: /images/apple-touch-icon_thumb.png
+
 
 https://www.khanacademy.org/math/differential-equations
 
@@ -19,6 +21,10 @@ It is a free course on Khan academy and excellent, as it is detailed and thoroug
 ## I particularly liked... 
 
 # First order Differential Equations
+
+![Default cover image](/images/apple-touch-icon.png)
+
+
 ## Intro to differential Equations
 ## Slope Fields
 ## Euler's Method

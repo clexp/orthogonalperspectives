@@ -9,6 +9,8 @@ Status: draft
 Summary: 
 https://twimlai.com/podcast/twimlai/are-large-language-models-a-path-to-agi/
 ## This was...
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## I already knew...
 

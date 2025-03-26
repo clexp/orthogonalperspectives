@@ -6,6 +6,8 @@ Slug: 40
 Authors: clexp
 Status: draft
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## This was...
 https://www.youtube.com/playlist?list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E

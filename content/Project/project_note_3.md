@@ -7,6 +7,8 @@ Slug: review of hardware in 2023 for IOT-ML
 Authors: clexp
 Summary: Pretending I am not shopping for shiny fun things
 Status: draft
+Cover: /images/apple-touch-icon_thumb.png
+
 
 
 

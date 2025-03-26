@@ -6,6 +6,8 @@ Slug: what are we
 Authors: clexp
 Summary: At what point does tech become self aware?
 Status: draft
+Cover: /images/apple-touch-icon_thumb.png
+
 
 
 

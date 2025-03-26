@@ -7,6 +7,8 @@ Slug: toying with the idea of edge ML dictation tool
 Authors: clexp
 Summary: Looking at the field, what is there
 Status: draft
+Cover: /images/apple-touch-icon_thumb.png
+
 
 
 

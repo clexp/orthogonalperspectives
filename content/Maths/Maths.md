@@ -7,6 +7,8 @@ Authors: clexp
 Summary: My current feelings about maths
 Status: draft
 I just wanted to take a note about maths.
+Cover: /images/apple-touch-icon_thumb.png
+
 
 I love maths. It's really great. There's always only two outcomes, you're either right or you're wrong. It's so much better than everything else in life. It all has unknown and probabalistic outcomes.  
 $$\int(\frac{3x^2-2x+5}{\frac{1}{2}x+\ln x})dx$$

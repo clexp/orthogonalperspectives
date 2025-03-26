@@ -8,6 +8,8 @@ Status: draft
 Summary: 
 https://www.coursera.org/learn/machine-learning?specialization=machine-learning-introduction
 ## This was...
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## I already knew...
 

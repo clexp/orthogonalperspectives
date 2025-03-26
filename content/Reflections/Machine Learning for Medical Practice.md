@@ -6,6 +6,8 @@ Slug: 72
 Authors: clexp
 Status: draft
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## Machine Learning (not AI)
 #### Medical Practice

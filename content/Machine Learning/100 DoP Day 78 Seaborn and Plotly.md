@@ -6,11 +6,16 @@ Tags: #Maths , #Reflections
 Slug: 00000022
 Authors: clexp
 Summary: Exploring Pandas and Data science
-status:
+Status: published
+Cover: /images/apple-touch-icon_thumb.png
+
+
 ## This was...
+
 testing testing
+
 ## I already knew...
 
 ## What was new...
 
-## I particularly liked... 
+## I particularly liked...

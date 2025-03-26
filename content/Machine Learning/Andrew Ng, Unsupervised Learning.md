@@ -6,6 +6,8 @@ Slug: 33
 Authors: clexp
 Status: draft
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## This was...
 

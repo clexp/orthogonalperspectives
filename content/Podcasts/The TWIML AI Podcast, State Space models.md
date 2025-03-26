@@ -6,6 +6,8 @@ Slug: 56
 Authors: clexp
 Status: draft
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 https://twimlai.com/podcast/twimlai/language-modeling-with-state-space-models/
 

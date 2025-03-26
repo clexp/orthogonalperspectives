@@ -1,65 +1,83 @@
-{% extends "base.html" %}
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <section id="content">
+  <div class="row">
+    <div class="eleven columns">
+      {% block content_title %} {% endblock %}
 
+      <ol id="post-list">
+        {% for article in articles_page.object_list %}
+        <li>
+          <div>
+            <article class="c_art_hdr">
+              <div>
+                <header>
+                  <h3 class="entry-title">
+                    <a
+                      href="{{ SITEURL }}/{{ article.url }}"
+                      rel="bookmark"
+                      title="Permalink to {{ article.title|striptags }}"
+                      >{{ article.title }}</a
+                    >
+                  </h3>
+                </header>
+                <footer class="post-info">
+                  <abbr
+                    class="published"
+                    title="{{ article.date.isoformat() }}"
+                  >
+                    {{ article.locale_date }}
+                  </abbr>
+                  {% if article.authors %}
+                  <address class="vcard author">
+                    By {% for author in article.authors|sort %}
+                    <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">
+                      {{ author }}</a
+                    >
+                    {% endfor %}
+                  </address>
+                  {% endif %}
+                </footer>
+                <!-- /.post-info -->
+              </div>
+              <div>
+                <!-- place holder for image-->
+                {% if article.cover %}<img src="{{ article.cover }}" alt="" />{%
+                else %}<img src="/images/apple-touch-icon_thumb.png" alt="" />{%
+                endif %}
+              </div>
 
+              <div>{{ article.summary|striptags }}</div>
+              <div>
+                {% if article.tags %}
+                <span>Tagged as : </span>
+                {% for tag in article.tags %}
+                <a class="info label" href="{{ SITEURL }}/{{ tag.url }}"
+                  >{{ tag|e }}</a
+                >
+                {% endfor %} {% endif %}
+                <div class="medium primary btn">
+                  <a
+                    href="{{ SITEURL }}/{{ article.url }}"
+                    rel="bookmark"
+                    title="Permalink to {{ article.title|striptags }}"
+                    >Read more <i class="icon-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </li>
+        {% endfor %}
+      </ol>
+      <!-- /#posts-list -->
+    </div>
+    <!-- /.eleven.columns -->
 
-   <div class="row">
+    {% include 'sidebar.html' %}
+  </div>
+  <!-- /.row -->
 
-
-        <div class="eleven columns">
-{% block content_title %}
-
-{% endblock %}
-
-                 <ol id="post-list">
-                {% for article in articles_page.object_list %}
-                        <li>
-                            <div>
-                                <article  class="c_art_hdr">
-                              
-                                    <div >
-                                  <header> <h3 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3> </header>
-                                  <footer class="post-info">
-                                    <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
-                                    {% if article.authors %}
-                                    <address class="vcard author">By
-                                    {% for author in article.authors|sort %}
-                                    <a class="url fn" href="{{ SITEURL }}/{{ author.url }}"> {{ author }}</a>
-                                    {% endfor %}
-                                    </address>
-                                    {% endif %}
-                                </footer><!-- /.post-info -->                                </div>
-                                    <div>
-                                        <!-- place holder for image-->
-                                        {% if article.thumb %}<img src="{{ article.thumb }}" alt="">{% endif %}
-                                    </div>
-                             
-                             
-                                    <div >
-                                        {{ article.summary|striptags }}
-                                    </div>
-                                    <div >
-                                        {% if article.tags %}
-                                        <span>Tagged as : </span>
-                                        {% for tag in article.tags %}
-                                            <a class="info label" href="{{ SITEURL }}/{{ tag.url }}">{{ tag|e }}</a>
-                                        {% endfor %}
-                                    {% endif %}
-                                    <div class="medium primary btn"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Read more <i class="icon-arrow-right"></i></a></div>
-                                </div>
-                             
-                                </article>
-                            </div>
-                    </li>
-                {% endfor %}
-                </ol><!-- /#posts-list -->
-
-        </div><!-- /.eleven.columns -->
-        
-     {% include 'sidebar.html' %}
- </div><!-- /.row -->
-
-{% include 'pagination.html' %}
-</section><!-- /#content -->
+  {% include 'pagination.html' %}
+</section>
+<!-- /#content -->
 {% endblock content %}

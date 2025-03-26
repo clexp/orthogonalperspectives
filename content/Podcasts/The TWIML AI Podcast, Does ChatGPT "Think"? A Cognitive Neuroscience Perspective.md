@@ -8,6 +8,8 @@ Status: draft
 Summary: 
 https://twimlai.com/podcast/twimlai/does-chatgpt-think-a-cognitive-neuroscience-perspective/
 ## This was...
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## I already knew...
 

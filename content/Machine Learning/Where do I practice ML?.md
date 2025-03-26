@@ -1,10 +1,13 @@
 title: where do I practice ML?
 date: 2023-06-16
 Modified: 2023-5-6
-Tags: #Reflections  #Machine_Learning
+Tags: #Reflections #Machine_Learning
 Slug: I want to know more about assessing data
 Authors: clexp
-Summary:   Learn Machine Learning in a community
+Summary: Learn Machine Learning in a community
+Status: published
+Cover: /images/apple-touch-icon_thumb.png
+
 
 I want to learn how to do machine learning. The more I examine this, clearly the bigger field it becomes. This is not like teaching oneself watercolour. This is a large and rapidly growing and also changing field.
 

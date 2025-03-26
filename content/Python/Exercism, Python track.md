@@ -1,11 +1,12 @@
 title: Exercism, Python track
 date: 2023-07-02
 Modified: 2023-07-02
-Tags: #Python #algorithms 
+Tags: #Python #algorithms
 Slug: 61
 Authors: clexp
-Status: draft
-Summary: 
+Status: published
+Summary:
+Cover: /images/apple-touch-icon_thumb.png
 
 https://exercism.org/tracks/python/exercises
 
@@ -15,4 +16,4 @@ https://exercism.org/tracks/python/exercises
 
 ## What was new...
 
-## I particularly liked... 
+## I particularly liked...

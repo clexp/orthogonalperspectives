@@ -6,8 +6,14 @@ Slug: 0000003
 Authors: clexp
 Summary: The mathematical architecture of space.  
 Status: draft
+Cover: /images/apple-touch-icon_thumb.png
+
 
 # This was enormous.  
+
+![Default cover image](/images/apple-touch-icon.png)
+
+
 This was a huge series of mathematical videos. Every video went into depth and detail and worked example.
 
 Every section had multiple subsections and each subsection had multiple videos.

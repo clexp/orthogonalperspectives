@@ -7,6 +7,8 @@ Authors: clexp
 Status: draft
 Summary: 
 https://www.khanacademy.org/math/statistics-probability
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## This was...
 
@@ -17,6 +19,10 @@ https://www.khanacademy.org/math/statistics-probability
 ## I particularly liked... 
 
 # Analyzing Categorical Data
+
+![Default cover image](/images/apple-touch-icon.png)
+
+
 # Displaying and comparing Quantitative Data
 # Summarizing Quantitative Data
 # Modelling Data Distributions

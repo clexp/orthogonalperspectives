@@ -7,6 +7,8 @@ Status: draft
 Authors: clexp
 Summary: Exploring Pandas and Data science
 ## This was...
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## I already knew...
 

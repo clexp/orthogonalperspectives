@@ -5,6 +5,8 @@ Tags: #Maths , #Reflections
 Slug: 00000090
 Authors: clexp
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 ## This was...
 

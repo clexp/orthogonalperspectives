@@ -7,6 +7,8 @@ Authors: clexp
 Summary: Going back to high school maths a quarter century later
 Status: draft
 I recall liking maths at secondary school. 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 I was a middle set candidate. My school did maths one year early. It is hard to get the higher grades on the middle tier papers. And as a middle middle tier candidate I was set for the middle tier papers.
 

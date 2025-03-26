@@ -6,6 +6,8 @@ Slug: 42
 Authors: clexp
 Status: draft
 Summary: 
+Cover: /images/apple-touch-icon_thumb.png
+
 
 https://www.khanacademy.org/math/multivariable-calculus
 
@@ -21,6 +23,10 @@ https://www.khanacademy.org/math/multivariable-calculus
 
 <img  src='/images/Maths/khan_acad_Multivariate_calc_matrices.jpg'>
 # Unit 1: Thinking about Multivariate Functions
+
+![Default cover image](/images/apple-touch-icon.png)
+
+
 ## Vectors and Matrices
 ## Visualising scalar-valued functions
 ## Visualising vector-valued functions

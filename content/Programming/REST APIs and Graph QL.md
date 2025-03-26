@@ -1,8 +1,9 @@
-title: REST APIs and Graph QL
-date: 2023-07-02
+Title: REST APIs and Graph QL
+Cover: /images/apple-touch-icon_thumb.png
+Date: 2023-07-02
 Modified: 2023-07-02
 Categories: Programming
-Tags: 
+Tags:
 Slug: 58
 Authors: clexp
 Status: draft

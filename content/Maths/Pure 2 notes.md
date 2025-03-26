@@ -17,6 +17,8 @@ $$3x+4\equiv Ax+3A+Bx-2B$$
 $$3x\equiv Ax+Bx;  4\equiv 3A-2B$$
 $$3-B\equiv A;  4\equiv 3A-2B$$
 $$4=3(3-B)-2B; 4=9-5B; B=1, A=2$$
+Cover: /images/apple-touch-icon_thumb.png
+
 
 
 ### Proof

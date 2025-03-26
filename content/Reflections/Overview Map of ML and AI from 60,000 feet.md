@@ -1,4 +1,5 @@
 title: Overview Map of ML and AI from 60,000 feet
+Cover: /images/apple-touch-icon_thumb.png
 date: 2023-06-16
 Modified: 2023-7-6
 Tags: #Computer_Science
