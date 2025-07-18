@@ -1,5 +1,5 @@
 [build]
-  command = "python -m pip install --upgrade pip && pip install -r requirements.txt && pelican content"
+  command = "python -m pip install --upgrade pip && pip install -r requirements.txt && pelican content -s publishconf.py"
   publish = "output"
 
 [build.environment]

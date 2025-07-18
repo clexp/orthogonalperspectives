@@ -30,7 +30,7 @@ MENUITEMS = (
 # in the base.html, both of the next two 'DISPLAY..' params are inverted
 # and a 'menu' is a nav bar
 DISPLAY_PAGES_ON_MENU = False # False is DO put static pages in nav
-DISPLAY_CATEGORIES_ON_MENU = True # True is DONT put categories in nav
+DISPLAY_CATEGORIES_ON_MENU = False # False is DO put categories in nav
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
@@ -52,7 +52,16 @@ LINKS = (('My ML/AI Blog', 'https://www.linkedin.com/?original_referer='),
 SOCIAL = (('Facebook', 'https://shop.pimoroni.com/'),
           ('Linked in', 'https://thepihut.com/'),)
 
-DEFAULT_PAGINATION = 7
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Draft configuration for development
+WITH_FUTURE_DATES = False
+DEFAULT_PAGINATION = 7
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
+
+# Enable tag cloud
+TAG_CLOUD = True
+TAG_CLOUD_STEPS = 4
+TAG_CLOUD_MAX_ITEMS = 100

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Journey to ML - Reflections</title><link href="n/" rel="alternate"></link><link href="n/feeds/reflections.atom.xml" rel="self"></link><id>n/</id><updated>2025-03-26T00:00:00+00:00</updated><subtitle>A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning</subtitle><entry><title>Reflections Summary</title><link href="n/reflections-summary.html" rel="alternate"></link><published>2025-03-26T00:00:00+00:00</published><updated>2025-03-26T00:00:00+00:00</updated><author><name>clexp</name></author><id>tag:None,2025-03-26:n/reflections-summary.html</id><summary type="html">&lt;h1&gt;Reflections and Insights&lt;/h1&gt;
+&lt;p&gt;This section contains personal reflections on the intersection of technology, medicine, and machine learning.&lt;/p&gt;
+&lt;h2&gt;Professional Applications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Machine%20Learning%20for%20Medical%20Practice.md"&gt;Machine Learning for Medical Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Machine%20Learning%20for%20Mechanical%20engineering%20Practice.md"&gt;Machine Learning for Mechanical Engineering Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20for%20Medical%20practice.md"&gt;AI for Medical Practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;AI and Neuroscience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="AI%20and%20Neuroanatomy.md"&gt;AI and Neuroanatomy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20and%20human%20neurodivergence.md"&gt;AI and Human Neurodivergence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20and%20neurodevelopment%20(in%20Children).md"&gt;AI and Neurodevelopment in Children&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;General …&lt;/h2&gt;</summary><content type="html">&lt;h1&gt;Reflections and Insights&lt;/h1&gt;
+&lt;p&gt;This section contains personal reflections on the intersection of technology, medicine, and machine learning.&lt;/p&gt;
+&lt;h2&gt;Professional Applications&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Machine%20Learning%20for%20Medical%20Practice.md"&gt;Machine Learning for Medical Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Machine%20Learning%20for%20Mechanical%20engineering%20Practice.md"&gt;Machine Learning for Mechanical Engineering Practice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20for%20Medical%20practice.md"&gt;AI for Medical Practice&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;AI and Neuroscience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="AI%20and%20Neuroanatomy.md"&gt;AI and Neuroanatomy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20and%20human%20neurodivergence.md"&gt;AI and Human Neurodivergence&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="AI%20and%20neurodevelopment%20(in%20Children).md"&gt;AI and Neurodevelopment in Children&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;General Reflections&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Overview%20Map%20of%20ML%20and%20AI%20from%2060,000%20feet.md"&gt;Overview Map of ML and AI from 60,000 feet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="it's%20life%20Jim%20but%20not%20as%20we%20know%20it.md"&gt;It's Life Jim but Not as We Know It&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Yaks%20I've%20shaved.md"&gt;Yaks I've Shaved&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="reflections_1_may_2023.md"&gt;Reflections from May 2023&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Reflections"></category></entry><entry><title>AI and human neurodivergence</title><link href="n/66.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/66.html</id><summary type="html">&lt;p&gt;some something&lt;/p&gt;</summary><content type="html">&lt;p&gt;this was a blog post&lt;/p&gt;</content><category term="Reflections"></category></entry><entry><title>AI and Neuroanatomy</title><link href="n/67.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/67.html</id><summary type="html">&lt;p&gt;something about structures and neuro anatomy&lt;/p&gt;</summary><content type="html">&lt;p&gt;I really really thought about neuroanatomy&lt;/p&gt;</content><category term="Reflections"></category></entry></feed>

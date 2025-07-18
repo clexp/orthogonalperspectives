@@ -8,16 +8,15 @@ Summary: What was happening in 1997 and 8
 Status: published
 Cover: /images/apple-touch-icon_thumb.png
 
-
 1997, I was studying A-levels. We had to pick university courses. This was the great bellyaching of the time.
 
 How do we make life decisions with out any feel for where we want to go?
 
 One interesting approach to this problem was to ask what other people were doing. But the usefulness of this information for deciding a possible future was limited. On one hand, these people all made good decisions. On the other hand you would be choosing what they choose, they could now become your competition, and they were competitive.
 
-In my year, two boys, both with the same name, picked artificial intelligence to study. They even picked it at the same university.I was just imagining the headache. This would cause the admissions tutor. One of these boys was very sporty. The other was quite the opposite. What they had in common was maths.
+In my year, two boys, both with the same name, picked artificial intelligence to study. They even picked it at the same university.I was just imagining the headache this would cause the admissions tutor. One of these boys was very sporty. The other was quite the opposite. What they had in common was maths.
 
-I recall thinking this would be an unsolvable problem, but that it would be a significant problem when solved.
+I recall thinking this would be an unsolvable problem, but that it would be a significant change problem when solved.
 
 About that time I was watching a lot of Star Trek. As were many of my friends I was taken with the android. Data, the man-made humanoid robot. It was an interesting exploration of consciousness in artificial form.
 

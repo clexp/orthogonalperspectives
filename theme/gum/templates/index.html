@@ -41,9 +41,16 @@
               </div>
               <div>
                 <!-- place holder for image-->
-                {% if article.cover %}<img src="{{ article.cover }}" alt="" />{%
-                else %}<img src="/images/apple-touch-icon_thumb.png" alt="" />{%
-                endif %}
+                {% if article.cover %}
+                <img src="{{ article.cover }}" alt="" />
+                {% else %} {% if article.category %}
+                <img
+                  src="/images/defaults/{{ article.category|lower }}_default.png"
+                  alt=""
+                />
+                {% else %}
+                <img src="/images/defaults/generic_default.png" alt="" />
+                {% endif %} {% endif %}
               </div>
 
               <div>{{ article.summary|striptags }}</div>

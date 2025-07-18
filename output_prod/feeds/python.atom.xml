@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Journey to ML - Python</title><link href="n/" rel="alternate"></link><link href="n/feeds/python.atom.xml" rel="self"></link><id>n/</id><updated>2025-03-26T00:00:00+00:00</updated><subtitle>A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning</subtitle><entry><title>Python Summary</title><link href="n/yyieu87.html" rel="alternate"></link><published>2025-03-26T00:00:00+00:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2025-03-26:n/yyieu87.html</id><summary type="html"></summary><content type="html">&lt;h1&gt;Python Learning Journey&lt;/h1&gt;
+&lt;p&gt;This section documents my journey learning Python, from fundamentals to advanced concepts.&lt;/p&gt;
+&lt;h2&gt;Python Deep Dive Series&lt;/h2&gt;
+&lt;p&gt;A comprehensive series by Dr. Fred Baptiste covering advanced Python concepts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Dr%20Fred%20Baptiste,%20Python%20Deep%20Dive%201.md"&gt;Python Deep Dive 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Dr%20Fred%20Baptiste,%20Python%20Deep%20Dive%202.md"&gt;Python Deep Dive 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Dr%20Fred%20Baptiste,%20Python%20Deep%20Dive%203.md"&gt;Python Deep Dive 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Dr%20Fred%20Baptiste,%20Python%20Deep%20Dive%204.md"&gt;Python Deep Dive 4&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Exercism Python Track&lt;/h2&gt;
+&lt;p&gt;Practice problems and solutions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Exercism,%20Python%20track.md"&gt;Python Track Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Exercism,%20Python%20track,%20Linked%20List.md"&gt;Linked List Implementation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Exercism,%20Python%20track,%20Pythagorean%20Triplet.md"&gt;Pythagorean Triplet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Exercism,%20Python%20track,%20REST%20API.md"&gt;REST API Implementation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Coding Practice&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="Leetcode,%20That's%20a%20lot%20of%20code.md"&gt;LeetCode Solutions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Neetcode%20Who%20and%20What.md"&gt;NeetCode Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="Python%201.md"&gt;Python Fundamentals&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Python"></category></entry><entry><title>Exercism, Python track, REST API</title><link href="n/100.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/100.html</id><summary type="html">&lt;p&gt;Super difficult JSON writer&lt;/p&gt;</summary><content type="html"></content><category term="Python"></category></entry><entry><title>Exercism, Python track</title><link href="n/61.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/61.html</id><summary type="html"></summary><content type="html">&lt;p&gt;https://exercism.org/tracks/python/exercises&lt;/p&gt;
+&lt;h2&gt;This was...&lt;/h2&gt;
+&lt;h2&gt;I already knew...&lt;/h2&gt;
+&lt;h2&gt;What was new...&lt;/h2&gt;
+&lt;h2&gt;I particularly liked...&lt;/h2&gt;</content><category term="Python"></category><category term="#Python #algorithms"></category></entry><entry><title>Exercism, Python track, Linked List</title><link href="n/62.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/62.html</id><content type="html"></content><category term="Python"></category></entry><entry><title>Exercism, Python track, Pythagorean Triplet</title><link href="n/63.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/63.html</id><content type="html"></content><category term="Python"></category></entry><entry><title>Dr Fred Baptiste, Python Deep Dive 2</title><link href="n/73.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/73.html</id><summary type="html"></summary><content type="html">&lt;p&gt;https://www.udemy.com/course/python-3-deep-dive-part-2/learn/lecture/10059290#overview&lt;/p&gt;</content><category term="Python"></category></entry><entry><title>Dr Fred Baptiste, Python Deep Dive 3</title><link href="n/74.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/74.html</id><summary type="html"></summary><content type="html">&lt;p&gt;https://www.udemy.com/course/python-3-deep-dive-part-3/learn/lecture/11601094?start=0#overview&lt;/p&gt;</content><category term="Python"></category></entry><entry><title>Dr Fred Baptiste, Python Deep Dive 4</title><link href="n/75.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/75.html</id><summary type="html"></summary><content type="html">&lt;p&gt;https://www.udemy.com/course/python-3-deep-dive-part-4/learn/lecture/14192218?start=0#overview&lt;/p&gt;</content><category term="Python"></category></entry><entry><title>Dr Fred Baptiste, Python Deep Dive 1</title><link href="n/dr-fred-baptiste-python-deep-dive-1.html" rel="alternate"></link><published>2023-07-02T00:00:00+01:00</published><updated>2023-07-02T00:00:00+01:00</updated><author><name>clexp</name></author><id>tag:None,2023-07-02:n/dr-fred-baptiste-python-deep-dive-1.html</id><content type="html">&lt;p&gt;Summary: I did some really greate stuff&lt;/p&gt;
+&lt;p&gt;This is a blog post&lt;/p&gt;
+&lt;p&gt;https://www.udemy.com/course/python-3-deep-dive-part-1/learn/lecture/7065310#overview&lt;/p&gt;</content><category term="Python"></category><category term="#72tt #45hn"></category></entry></feed>

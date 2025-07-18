@@ -6,7 +6,7 @@ Tags: #Maths , #Reflections
 Slug: 00000007
 Authors: clexp
 Summary: UK A Level Maths review, Mechanical Maths 1
-Cover: /images/maths/mech_one_cover.png
+Cover: /images/Maths/mech_one_cover.png
 Status: published
 
 ## This was...

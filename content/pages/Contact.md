@@ -9,14 +9,7 @@ Status: published
 Summary: Contact information and form
 Cover: /images/apple-touch-icon_thumb.png
 
-
 # Contact Me
-
-![Default cover image](/images/apple-touch-icon.png)
-
-
-
-I welcome your thoughts, questions, and suggestions about my journey into machine learning and artificial intelligence.
 
 ## Get in Touch
 

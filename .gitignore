@@ -50,6 +50,9 @@ output/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+# Obsidian
+.obsidian/
+
 # pyenv
 .python-version
 

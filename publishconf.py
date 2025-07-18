@@ -17,5 +17,10 @@ DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
+# Disable drafts in production
+DRAFT_URL = ''
+DRAFT_SAVE_AS = ''
+WITH_FUTURE_DATES = False
+
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""

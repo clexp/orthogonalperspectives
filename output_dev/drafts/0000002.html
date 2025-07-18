@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+        <title>A Level pure 2, partial fractions</title>
+        <meta charset="utf-8" />
+
+
+        <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+        <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="/theme/gumby.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/style.css" />
+        <link rel="stylesheet" type="text/css" href="/theme/pygment.css" />
+
+        <script src="/theme/js/libs/modernizr-2.6.2.min.js"></script>
+
+
+
+
+        <!-- Using MathJax, with the delimiters $ -->
+<!-- Conflict with pygments for the .mo and .mi -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  "HTML-CSS": {
+  styles: {
+  ".MathJax .mo, .MathJax .mi": {color: "black ! important"}}
+  },
+  tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']],processEscapes: true}
+  });
+</script>
+<link rel="icon" type="image/png" sizes="16x16" rel="noopener" target="_blank" href="/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" rel="noopener" target="_blank" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" rel="noopener" target="_blank" href="/images/favicon-48x48.png">
+<link rel="apple-touch-icon" sizes="180x180" rel="noopener" target="_blank" href="/images/apple-touch-icon.png">
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+
+
+<body id="index" class="home">
+
+
+    <div class="container">
+
+        <div class="row">
+
+          <header id="banner" class="body">
+                  <h1><a href="/">Journey to ML </a></h1>
+                  <h6><strong>A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning</strong></h6>
+                  
+          </header><!-- /#banner -->
+
+            <div id="navigation" class="navbar row">
+              <a href="#" gumby-trigger="#navigation &gt; ul" class="toggle"><i class="icon-menu"></i></a>
+             
+              <ul class="columns">
+                <!-- <li><a href="/">Home</a></li> -->
+
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/">Home</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/about.html">About</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/contact.html">Contact</a></li> 
+ <!-- recall in pelican a menu is what everyone else calls a navbar-->
+                <!--  these are defined in pelicanconf.py  -->
+                <li><a href="/pages/site-notes.html">Site Notes</a></li> 
+            
+              <!--
+ 
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="/pages/contact.html">Contact</a></li>
+                    <li><a href="/pages/home.html">Home</a></li>
+                    <li><a href="/pages/site-notes.html">Site Notes</a></li>
+              -->
+            
+
+              </ul>
+            </div>
+
+<section id="content" class="body">
+
+   <div class="row">
+        <div class="eleven columns">
+
+
+            <header>
+              <h2 class="entry-title">
+                <a href="/drafts/0000002.html" rel="bookmark"
+                   title="Permalink to A Level pure 2, partial fractions">A Level pure 2, partial fractions</a></h2>
+           
+            </header>
+            <footer class="post-info">
+              <abbr class="published" title="2023-06-29T00:00:00+01:00">
+                Thu 29 June 2023
+              </abbr>
+              <address class="vcard author">By 
+                <a class="url fn" href="/author/clexp.html"> clexp</a>
+              </address>
+            </footer><!-- /.post-info -->
+            <div class="entry-content">
+              <h3>Partial Fractions</h3>
+<p>How do we find $A$ and $B$?
+$$\frac{3x+4}{(x-2)(x+3)}\equiv\frac{A}{x-2}+\frac{B}{x+3}$$
+$$\frac{3x+4}{(x-2)(x+3)}\equiv\frac{A(x+3)}{(x-2)(x+3)}+\frac{B(x-2)}{(x-2)(x+3)}$$
+$$\frac{3x+4}{(x-2)(x+3)}\equiv\frac{A(x+3)+B(x-2)}{(x-2)(x+3)}$$
+$$3x+4\equiv A(x+3)+B(x-2)$$
+$$3x+4\equiv Ax+3A+Bx-2B$$
+$$3x+4\equiv Ax+3A+Bx-2B$$
+$$3x\equiv Ax+Bx;  4\equiv 3A-2B$$
+$$3-B\equiv A;  4\equiv 3A-2B$$
+$$4=3(3-B)-2B; 4=9-5B; B=1, A=2$$
+Cover: /images/apple-touch-icon_thumb.png</p>
+<h3>Proof</h3>
+<h3>Functions and Graphs</h3>
+<h3>Sequences and Series</h3>
+<h3>Binomial expansion</h3>
+<h3>Radians</h3>
+<p>Radians and degrees are like celcius and fahrenheit.  A Radian is about 57 degrees, but this is not the definition you should use.  The definition you should use is 180 degrees is $\pi$ radian.  This is good, because an arc length is $r\theta$ where $r$ is the radius and $\theta$ is the arc angle in radians.  </p>
+<h3>Trigonometric Functions</h3>
+<p>$$\tan x=\frac{1}{adj}$$
+$$\cot x = \frac{1}{tan x} = \frac{cos x}{sin x}$$
+The 'secant' is the full name of the $\sec x$ 
+$$\sec x= \frac{1}{\cos x}$$
+The 'cosecant' is the full name of the $\csc x$.</p>
+<p>$$\csc x = \frac{1}{\sin x}$$
+Prooving identities:</p>
+<h5>Pythagorean identities:</h5>
+<p>$$\sin^2\theta + \cos^2\theta =1$$
+$$\tan^2\theta+1=\sec^2\theta$$
+$$1+cot^2\theta=\csc^2\theta$$</p>
+<h5>Prooving Identities</h5>
+<p>Prove that
+$$\sec^2 A-\sin^2 A \equiv \tan^2 A+\cos^2 A$$
+We can use the pythagorean identity
+$$\tan^2 x +1 \equiv \sec^2 x$$
+to reach
+$$\equiv \tan^2 A +1 -\sin^2A$$
+And another pythagorean identity
+$$\sin^2 x + cos^2 x = 1;\sin^2 x = 1- \cos^2 x$$
+to get</p>
+<p>$$\equiv \tan^2 A + 1 -(1-\cos^2 A)$$
+simplifying to the answer:
+$$\equiv \tan^2 A - \cos^2 A$$</p>
+<h3>Parametric equations</h3>
+<p>This is where both x and y are outputs, and there is a separate variable (usually t), on which they are based.  Compare this to the cartesian equation, where x is the input and y is the output.  </p>
+<p><em>Why?</em>
+Because of what they do for you.  You can draw much more complicated shapes, much more simply.  </p>
+<h5>Differentiation</h5>
+<p>If you can differentiate these expression, again that opens up a doorway</p>
+<h6></h6>
+            </div><!-- /.entry-content -->
+
+
+        </div><!-- /.eleven.columns -->
+
+<div class="three columns">
+
+  </ul>
+  
+  <h4>Categories</h4>
+  <ul class="blank">
+    <li><a href="/category/literature.html">Literature</a></li>
+    <li><a href="/category/machine-learning.html">Machine Learning</a></li>
+    <li><a href="/category/maths.html">Maths</a></li>
+    <li><a href="/category/misc.html">misc</a></li>
+    <li><a href="/category/podcasts.html">Podcasts</a></li>
+    <li><a href="/category/programming.html">Programming</a></li>
+    <li><a href="/category/project.html">Project</a></li>
+    <li><a href="/category/python.html">Python</a></li>
+    <li><a href="/category/reflections.html">Reflections</a></li>
+  </ul>
+
+
+
+
+<nav class="widget">
+  <h4>Social</h4>
+  <ul class="blank">
+    <li><a href="https://shop.pimoroni.com/">Facebook</a></li>
+    <li><a href="https://thepihut.com/">Linked in</a></li>
+  </ul>
+</nav>
+
+</div> </div><!-- /.row -->
+
+
+</section>
+
+       </div><!-- /.row -->
+    </div><!-- /.container -->
+
+
+       <div class="container.nopad bg">
+
+    
+        <footer id="credits" class="row">
+          <div class="seven columns left-center">
+
+                   <address id="about" class="vcard body">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                    <br />
+                    Based on the <a target="_blank" href="http://gumbyframework.com">Gumby Framework</a>
+                    </address>
+          </div>
+
+
+          <div class="seven columns">
+            <div class="row">
+              <ul class="socbtns">
+
+
+
+
+
+              </ul>
+            </div>
+          </div>
+        </footer>
+
+    </div>
+
+
+  <script src="/theme/js/libs/jquery-1.9.1.min.js"></script>
+  <script src="/theme/js/libs/gumby.min.js"></script>
+  <script src="/theme/js/plugins.js"></script>
+</body>
+</html>
