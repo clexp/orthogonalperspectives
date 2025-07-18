@@ -16,7 +16,7 @@ DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
 
   # clexp added
-SITESUBTITLE = 'A Mechanical Engineer turned Medic, voyages through Maths and into Machine Learning'
+SITESUBTITLE = 'Three professional journeys, one consistent approach: viewing complex systems from the outside'
 # DEFAULT_CATEGORY = 'Machine Learning'
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = (
