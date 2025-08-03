@@ -12,6 +12,63 @@ html {
   overflow-y: scroll !important;
 }
 
+/* Search Bar Styles */
+.search-container {
+  margin-left: auto;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 8px 0;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  width: 150px;
+  color: #333;
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #999;
+}
+
+.search-box button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  color: #666;
+  transition: color 0.2s ease;
+}
+
+.search-box button:hover {
+  color: #3498db;
+}
+
+.search-box button i {
+  font-size: 16px;
+}
+
+/* Mobile responsive search */
+@media only screen and (max-width: 600px) {
+  .search-box {
+    margin: 4px 0;
+  }
+
+  .search-box input[type="text"] {
+    width: 120px;
+    font-size: 13px;
+  }
+}
 
 /* Code Highlighting */
 code,
@@ -21,8 +78,8 @@ pre {
   font-size: 12px;
   color: #333333;
   -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 
 code {
@@ -47,8 +104,8 @@ pre {
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 pre.prettyprint {
@@ -68,10 +125,6 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
-
-
-
 
 /* Table
 --------------------------------------------------------- */
@@ -133,8 +186,8 @@ table {
   *border-collapse: collapse;
   border-left: 0;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 
 .table-striped tbody > tr:nth-child(odd) > td,
@@ -156,44 +209,72 @@ table th[class*="span"],
   margin-left: 0;
 }
 
-
 /* Navigation
 --------------------------------------------------------- */
-#banner strong {display:block;}
-#banner h1 { font-size:3.25rem }
+#banner strong {
+  display: block;
+}
+#banner h1 {
+  font-size: 3.25rem;
+}
 
 .no-touch .navbar ul li.active > a {
-  
   background: #868d92;
-
 }
 /* Posts
 --------------------------------------------------------- */
 
-#post-list { margin-left:0; }
-#post-list > li {list-style:none;  border-bottom: 2px solid #ccc;  margin-bottom: 20px;  padding-bottom: 15px;}
+#post-list {
+  margin-left: 0;
+}
+#post-list > li {
+  list-style: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}
 
-.tag-row {margin-top:20px;}
+.tag-row {
+  margin-top: 20px;
+}
 
-address { font-size:14px; margin-bottom:10px;}
+address {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
 
 /* Typography
 --------------------------------------------------------- */
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #3498DB;
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #3498db;
 }
 
-a, a:hover { color: #3498DB; }
-a:focus { color: #34495E; }
+a,
+a:hover {
+  color: #3498db;
+}
+a:focus {
+  color: #34495e;
+}
 
-.btn a:hover, 
-.btn a:focus {color:#eee; }
+.btn a:hover,
+.btn a:focus {
+  color: #eee;
+}
 
 .label:hover,
-.label:focus {color:#eee; }
+.label:focus {
+  color: #eee;
+}
 
-ul, ol {
+ul,
+ol {
   margin-bottom: 0.273em;
   margin-left: 1.5em;
 }
@@ -209,14 +290,20 @@ ul.blank {
 
 /* Footer
 --------------------------------------------------------- */
-.bg { background:#eee; margin-top:35px; padding-top:25px; border-top:5px solid #3498DB; }
-
-
+.bg {
+  background: #eee;
+  margin-top: 35px;
+  padding-top: 25px;
+  border-top: 5px solid #3498db;
+}
 
 /* Responsive fixes
 --------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
-  #banner h1 a {font-size:22px!important; line-height:24px;}
+  #banner h1 a {
+    font-size: 22px !important;
+    line-height: 24px;
+  }
 }
 
 /* The class 'hentry' appears in the html, but not in the css
@@ -231,8 +318,6 @@ following is clexp with flexbox and grid*/
 
   column-gap: 10px;
   row-gap: 5px;
-  
-
 }
 
 .last_box {

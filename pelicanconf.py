@@ -1,5 +1,5 @@
 AUTHOR = 'clexp'
-SITENAME = 'Journey to ML'
+SITENAME = 'Chris M Lewis'
 SITEURL = ''
 
 # Enable live reload
@@ -16,11 +16,12 @@ DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
 
   # clexp added
-SITESUBTITLE = 'Three professional journeys, one consistent approach: viewing complex systems from the outside'
+SITESUBTITLE = 'From Engineering and Medicine: contrasting professional viewpoints'
 # DEFAULT_CATEGORY = 'Machine Learning'
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = (
     ('Home', '/'),
+    ('Portfolio', '/pages/portfolio.html'),
     ('About', '/pages/about.html'),
     ('Contact', '/pages/contact.html'),
     ('Site Notes', '/pages/site-notes.html')
@@ -43,14 +44,10 @@ AUTHOR_FEED_RSS = None
 #          ('and that', 'https://thepihut.com/'),)
 
 # Blogroll
-LINKS = (('My ML/AI Blog', 'https://www.linkedin.com/?original_referer='),
-         ('Who I am?', 'https://www.facebook.com/'),
-         ('General blog', 'https://twitter.com/'),
-         ('Book reviews', 'https://www.amazon.co.uk/'),)
+# LINKS = (('Portfolio Sites', '#'),)
 
 # Social widget
-SOCIAL = (('Facebook', 'https://shop.pimoroni.com/'),
-          ('Linked in', 'https://thepihut.com/'),)
+# SOCIAL = (('LinkedIn', '#'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
