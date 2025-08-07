@@ -62,3 +62,6 @@ DRAFT_SAVE_AS = 'drafts/{slug}.html'
 TAG_CLOUD = True
 TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 100
+
+# Search functionality
+SEARCH_INDEX = True
