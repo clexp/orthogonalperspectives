@@ -65,3 +65,6 @@ TAG_CLOUD_MAX_ITEMS = 100
 
 # Search functionality
 SEARCH_INDEX = True
+
+# Comments
+DISQUS_SITENAME = 'commentary-clexp-net'

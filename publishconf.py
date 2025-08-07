@@ -22,5 +22,8 @@ DRAFT_URL = ''
 DRAFT_SAVE_AS = ''
 WITH_FUTURE_DATES = False
 
+# Comments
+DISQUS_SITENAME = 'commentary-clexp-net'
+
 #DISQUS_SITENAME = ""
 #GOOGLE_ANALYTICS = ""

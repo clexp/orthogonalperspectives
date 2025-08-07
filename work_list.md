@@ -29,15 +29,18 @@
   - ✅ Fixed Greek character issue in search icon (replaced with emoji)
   - ✅ Created search results page template
   - ✅ Added search routing and JavaScript functionality
-  - ⚠️ **TODO**: Implement actual search index (currently placeholder)
+  - ✅ **COMPLETED**: Implement actual search index (functional search system)
+    - ✅ Generated search index with 91 articles
+    - ✅ JSON-based search with proper results display
+    - ✅ Search bar positioned on right side of navigation
+    - ✅ Footer positioning fixed with CSS flexbox
 
 ## High Priority Next Steps 🚀
 
-- [ ] **Complete search functionality** - Current search is placeholder, needs proper implementation
-  - [ ] **Option A**: Generate search index during build process
-  - [ ] **Option B**: Implement client-side search library (Tipue Search, Fuse.js)
-  - [ ] **Option C**: Use Algolia DocSearch (free for open source)
-- [ ] **add comments** - Disqus integration already available in theme, just need to add DISQUS_SITENAME to publishconf.py
+- [x] **add comments** - Disqus integration already available in theme, just need to add DISQUS_SITENAME to publishconf.py
+  - ✅ Added DISQUS_SITENAME = 'clexp-commentary' to both development and production configs
+  - ✅ Comments now appear on all article pages
+  - ✅ Disqus script properly integrated in article template
 - [ ] **add contact form** - Use Netlify Forms for professional contact handling
 - [ ] **connect social media** - Link LinkedIn, GitHub, Twitter, and Mastodon (mastodon.social)
 - [ ] **Fix missing images** - Address `mech_two_cover.jpg` and other missing image references
@@ -46,6 +49,10 @@
 - [ ] **Update Netlify domain** - Change from clexp-ml-pathway.netlify.app to clexp.net
 - [ ] **Configure custom domain** - Set up clexp.net with Namecheap DNS
 - [ ] **Review and promote draft posts** - Select which of the 54 drafts to publish
+- [ ] **Complete search functionality** - Current search is placeholder, needs proper implementation
+  - [ ] **Option A**: Generate search index during build process
+  - [ ] **Option B**: Implement client-side search library (Tipue Search, Fuse.js)
+  - [ ] **Option C**: Use Algolia DocSearch (free for open source)
 
 ## Content Enhancement 📝
 
