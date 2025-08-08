@@ -38,10 +38,15 @@
 ## High Priority Next Steps 🚀
 
 - [x] **add comments** - Disqus integration already available in theme, just need to add DISQUS_SITENAME to publishconf.py
-  - ✅ Added DISQUS_SITENAME = 'clexp-commentary' to both development and production configs
+  - ✅ Added DISQUS_SITENAME = 'commentary-clexp-net' to both development and production configs
   - ✅ Comments now appear on all article pages
   - ✅ Disqus script properly integrated in article template
-- [ ] **add contact form** - Use Netlify Forms for professional contact handling
+- [x] **add contact form** - Use Netlify Forms for professional contact handling
+  - ✅ Added professional contact form with Netlify Forms integration
+  - ✅ Form includes: Name, Email, Subject dropdown, Message fields
+  - ✅ Added spam protection with honeypot field
+  - ✅ Client-side validation and professional styling
+  - ✅ Form configured with data-netlify="true" for automatic handling
 - [ ] **connect social media** - Link LinkedIn, GitHub, Twitter, and Mastodon (mastodon.social)
 - [ ] **Fix missing images** - Address `mech_two_cover.jpg` and other missing image references
 - [ ] **Complete draft articles** - 54 drafts ready for publishing (huge content opportunity!)
