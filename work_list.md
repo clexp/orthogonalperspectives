@@ -37,10 +37,13 @@
 
 ## High Priority Next Steps 🚀
 
+- [ ] **Improve default image thumbnails** - Better 'default' image thumbnail system
+
 - [x] **add comments** - Disqus integration already available in theme, just need to add DISQUS_SITENAME to publishconf.py
   - ✅ Added DISQUS_SITENAME = 'commentary-clexp-net' to both development and production configs
   - ✅ Comments now appear on all article pages
   - ✅ Disqus script properly integrated in article template
+  - ⚠️ **Part done** - Needs testing against Disqus and remove silly smileys poll
 - [x] **add contact form** - Use Netlify Forms for professional contact handling
   - ✅ Added professional contact form with Netlify Forms integration
   - ✅ Form includes: Name, Email, Subject dropdown, Message fields
@@ -54,10 +57,10 @@
 - [ ] **Update Netlify domain** - Change from clexp-ml-pathway.netlify.app to clexp.net
 - [ ] **Configure custom domain** - Set up clexp.net with Namecheap DNS
 - [ ] **Review and promote draft posts** - Select which of the 54 drafts to publish
-- [ ] **Complete search functionality** - Current search is placeholder, needs proper implementation
-  - [ ] **Option A**: Generate search index during build process
-  - [ ] **Option B**: Implement client-side search library (Tipue Search, Fuse.js)
-  - [ ] **Option C**: Use Algolia DocSearch (free for open source)
+- [x] **Complete search functionality** - Search is good enough for now
+  - ✅ JSON-based search with proper results display
+  - ✅ Search bar positioned on right side of navigation
+  - ✅ Functional search system implemented
 
 ## Content Enhancement 📝
 
