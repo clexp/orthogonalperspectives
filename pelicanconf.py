@@ -1,5 +1,5 @@
-AUTHOR = 'clexp'
-SITENAME = 'Chris M Lewis'
+AUTHOR = 'Chris M Lewis'
+SITENAME = 'Orthogonal Perspectives'
 SITEURL = ''
 
 # Enable live reload
@@ -16,7 +16,7 @@ DEFAULT_LANG = 'en'
 THEME = 'theme/gum'
 
   # clexp added
-SITESUBTITLE = 'From Engineering and Medicine: contrasting professional viewpoints'
+SITESUBTITLE = 'Professional commentary from engineering, medicine, and AI perspectives'
 # DEFAULT_CATEGORY = 'Machine Learning'
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = (
@@ -67,4 +67,4 @@ TAG_CLOUD_MAX_ITEMS = 100
 SEARCH_INDEX = True
 
 # Comments
-DISQUS_SITENAME = 'commentary-clexp-net'
+DISQUS_SITENAME = 'orthogonalperspectives-clexp-net'
