@@ -21,7 +21,6 @@ SITESUBTITLE = 'Professional commentary from engineering, medicine, and AI persp
 USE_FOLDER_AS_CATEGORY = True
 MENUITEMS = (
     ('Home', '/'),
-    ('Portfolio', '/pages/portfolio.html'),
     ('About', '/pages/about.html'),
     ('Contact', '/pages/contact.html'),
     ('Site Notes', '/pages/site-notes.html')
